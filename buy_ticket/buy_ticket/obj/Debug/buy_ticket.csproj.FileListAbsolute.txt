@@ -1,0 +1,14 @@
+C:\C\C#\Projects\buy_ticket\buy_ticket\bin\Debug\buy_ticket.exe.config
+C:\C\C#\Projects\buy_ticket\buy_ticket\bin\Debug\buy_ticket.exe
+C:\C\C#\Projects\buy_ticket\buy_ticket\bin\Debug\buy_ticket.pdb
+C:\C\C#\Projects\buy_ticket\buy_ticket\obj\Debug\buy_ticket.csprojAssemblyReference.cache
+C:\C\C#\Projects\buy_ticket\buy_ticket\obj\Debug\buy_ticket.csproj.CoreCompileInputs.cache
+C:\C\C#\Projects\buy_ticket\buy_ticket\obj\Debug\buy_ticket.exe
+C:\C\C#\Projects\buy_ticket\buy_ticket\obj\Debug\buy_ticket.pdb
+e:\C_C++_C#\Github\c-sharp\buy_ticket\buy_ticket\bin\Debug\buy_ticket.exe.config
+e:\C_C++_C#\Github\c-sharp\buy_ticket\buy_ticket\bin\Debug\buy_ticket.exe
+e:\C_C++_C#\Github\c-sharp\buy_ticket\buy_ticket\bin\Debug\buy_ticket.pdb
+e:\C_C++_C#\Github\c-sharp\buy_ticket\buy_ticket\obj\Debug\buy_ticket.csprojAssemblyReference.cache
+e:\C_C++_C#\Github\c-sharp\buy_ticket\buy_ticket\obj\Debug\buy_ticket.csproj.CoreCompileInputs.cache
+e:\C_C++_C#\Github\c-sharp\buy_ticket\buy_ticket\obj\Debug\buy_ticket.exe
+e:\C_C++_C#\Github\c-sharp\buy_ticket\buy_ticket\obj\Debug\buy_ticket.pdb

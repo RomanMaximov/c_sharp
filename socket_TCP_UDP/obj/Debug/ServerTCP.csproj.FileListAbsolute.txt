@@ -1,0 +1,7 @@
+e:\C_C++_C#\C#\Projects\socket_TCP_UDP\bin\Debug\lesson_18_socket_TCP_UDP.exe.config
+e:\C_C++_C#\C#\Projects\socket_TCP_UDP\bin\Debug\lesson_18_socket_TCP_UDP.exe
+e:\C_C++_C#\C#\Projects\socket_TCP_UDP\bin\Debug\lesson_18_socket_TCP_UDP.pdb
+e:\C_C++_C#\C#\Projects\socket_TCP_UDP\obj\Debug\ServerTCP.csprojAssemblyReference.cache
+e:\C_C++_C#\C#\Projects\socket_TCP_UDP\obj\Debug\ServerTCP.csproj.CoreCompileInputs.cache
+e:\C_C++_C#\C#\Projects\socket_TCP_UDP\obj\Debug\lesson_18_socket_TCP_UDP.exe
+e:\C_C++_C#\C#\Projects\socket_TCP_UDP\obj\Debug\lesson_18_socket_TCP_UDP.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buy_ticket", "buy_ticket\buy_ticket.csproj", "{FA0E1BCB-2FCD-4B92-8FD9-5B53DB895060}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA0E1BCB-2FCD-4B92-8FD9-5B53DB895060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0E1BCB-2FCD-4B92-8FD9-5B53DB895060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0E1BCB-2FCD-4B92-8FD9-5B53DB895060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0E1BCB-2FCD-4B92-8FD9-5B53DB895060}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B527B86-C906-4A17-9A35-6AC6CF995999}
+	EndGlobalSection
+EndGlobal

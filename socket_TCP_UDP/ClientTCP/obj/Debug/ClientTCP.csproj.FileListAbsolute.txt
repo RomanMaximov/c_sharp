@@ -1,0 +1,14 @@
+C:\C\C#\Projects\lesson_18_socket_TCP_UDP\ClientTCP\bin\Debug\ClientTCP.exe.config
+C:\C\C#\Projects\lesson_18_socket_TCP_UDP\ClientTCP\bin\Debug\ClientTCP.exe
+C:\C\C#\Projects\lesson_18_socket_TCP_UDP\ClientTCP\bin\Debug\ClientTCP.pdb
+C:\C\C#\Projects\lesson_18_socket_TCP_UDP\ClientTCP\obj\Debug\ClientTCP.csproj.CoreCompileInputs.cache
+C:\C\C#\Projects\lesson_18_socket_TCP_UDP\ClientTCP\obj\Debug\ClientTCP.exe
+C:\C\C#\Projects\lesson_18_socket_TCP_UDP\ClientTCP\obj\Debug\ClientTCP.pdb
+C:\C\C#\Projects\lesson_18_socket_TCP_UDP\ClientTCP\obj\Debug\ClientTCP.csprojAssemblyReference.cache
+e:\C_C++_C#\C#\Projects\socket_TCP_UDP\ClientTCP\bin\Debug\ClientTCP.exe.config
+e:\C_C++_C#\C#\Projects\socket_TCP_UDP\ClientTCP\bin\Debug\ClientTCP.exe
+e:\C_C++_C#\C#\Projects\socket_TCP_UDP\ClientTCP\bin\Debug\ClientTCP.pdb
+e:\C_C++_C#\C#\Projects\socket_TCP_UDP\ClientTCP\obj\Debug\ClientTCP.csproj.CoreCompileInputs.cache
+e:\C_C++_C#\C#\Projects\socket_TCP_UDP\ClientTCP\obj\Debug\ClientTCP.exe
+e:\C_C++_C#\C#\Projects\socket_TCP_UDP\ClientTCP\obj\Debug\ClientTCP.pdb
+e:\C_C++_C#\C#\Projects\socket_TCP_UDP\ClientTCP\obj\Debug\ClientTCP.csprojAssemblyReference.cache
