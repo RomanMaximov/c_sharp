@@ -230,5 +230,47 @@ namespace sorting
                 v[num++] = pos[i];
             }
         }
+
+        public void SortX(ref List<int> v)     // sorting integers ONLY!!!
+        {
+            int count = MaxNum(ref v);
+            int countNeg = MinNum(ref v);
+
+            int[] temp = new int[count + 1];
+            int[] tempNeg = new int[-countNeg + 1];
+
+            for (int i = 0; i < v.Count(); ++i)
+            {
+                if (v[i] < 0)
+                    ++tempNeg[-v[i]];
+                else
+                    ++temp[v[i]];
+            }
+
+            int x = 0;
+
+            for (int i = tempNeg.Count() - 1; i > 0; --i)
+            {
+                if (tempNeg[i] > 0)
+                {
+                    while (tempNeg[i] > 0)
+                    {
+                        v[x++] = -i;
+                        --tempNeg[i];
+                    }
+                }
+            }
+            for (int i = 0; i < temp.Count(); ++i)
+            {
+                if (temp[i] > 0)
+                {
+                    while (temp[i] > 0)
+                    {
+                        v[x++] = i;
+                        --temp[i];
+                    }
+                }
+            }
+        }
     }
 }

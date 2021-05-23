@@ -10,17 +10,19 @@ namespace sorting
     {
         static void Main(string[] args)
         {
-            List<int> v1 = new List<int>();
-            List<int> v2 = new List<int>();
-            
             int step = 500;
+            int[] temp = new int[100000];
 
             var rand = new Random();
             for (int i = 0; i < 100000; ++i)
             {
-                v1.Add(rand.Next(-5000, 5000));
-                v2.Add(rand.Next(-5000, 5000));
+                temp[i] = rand.Next(-5000, 5000);
             }
+
+            List<int> v1 = new List<int>(temp);
+            List<int> v2 = new List<int>(temp);
+            List<int> v3 = new List<int>(temp);
+
 
             Sort sort = new Sort();
 
@@ -30,13 +32,18 @@ namespace sorting
 
             Console.WriteLine("v2: ");
             sort.arrPrint(ref v2, step);
-            Console.WriteLine();
+            Console.WriteLine("\n");
 
+            Console.WriteLine("v3: ");
+            sort.arrPrint(ref v3, step);
+            Console.WriteLine();
             //Console.WriteLine("===========================================================");
 
             sort.BucketSort(ref v1);
             
             sort.QuickSort(ref v2, 0, v2.Count());
+
+            sort.SortX(ref v3);
 
             Console.WriteLine("===========================================================");
             Console.WriteLine();
@@ -47,6 +54,10 @@ namespace sorting
 
             Console.WriteLine("v2: ");
             sort.arrPrint(ref v2, step);
+            Console.WriteLine();
+
+            Console.WriteLine("v3: ");
+            sort.arrPrint(ref v3, step);
             Console.WriteLine();
         }
     }
