@@ -36,12 +36,25 @@ namespace sorting
 
             Console.WriteLine("v3: ");
             sort.arrPrint(ref v3, step);
-            Console.WriteLine();
-            //Console.WriteLine("===========================================================");
+            Console.WriteLine("\n");
+            Console.WriteLine("===========================================================");
 
             sort.BucketSort(ref v1);
-            
+
+            // QuickSort runtime calculation
+            var startTime = System.Diagnostics.Stopwatch.StartNew();
+
             sort.QuickSort(ref v2, 0, v2.Count());
+
+            startTime.Stop();
+            var resultTime = startTime.Elapsed;
+            string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:000}",
+                resultTime.Hours,
+                resultTime.Minutes,
+                resultTime.Seconds,
+                resultTime.Milliseconds);
+            Console.WriteLine("QuickSort runtime = " + elapsedTime);
+            Console.WriteLine();
 
             sort.SortX(ref v3);
 
@@ -54,7 +67,7 @@ namespace sorting
 
             Console.WriteLine("v2: ");
             sort.arrPrint(ref v2, step);
-            Console.WriteLine();
+            Console.WriteLine("\n");
 
             Console.WriteLine("v3: ");
             sort.arrPrint(ref v3, step);

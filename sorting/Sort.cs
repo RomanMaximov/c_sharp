@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace sorting
 {
     class Sort
@@ -111,6 +112,9 @@ namespace sorting
 
         public void BucketSort(ref List<int> v)     // bucketsort - only for INTEGERS!!!
         {
+            // runtime calculation
+            var startTime = System.Diagnostics.Stopwatch.StartNew();
+
             // create 2 arrays for negative and positive integers of origin array
             List<int> pos = new List<int>();
             List<int> neg = new List<int>();
@@ -229,10 +233,26 @@ namespace sorting
             {
                 v[num++] = pos[i];
             }
+
+            startTime.Stop();
+            var resultTime = startTime.Elapsed;
+
+            // elapsedTime - строка, которая будет содержать значение затраченного времени
+            string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:000}",
+                resultTime.Hours,
+                resultTime.Minutes,
+                resultTime.Seconds,
+                resultTime.Milliseconds);
+            Console.WriteLine("Bucketsort runtime = " + elapsedTime);
+            Console.WriteLine();
         }
 
         public void SortX(ref List<int> v)     // sorting integers ONLY!!!
         {
+            // runtime calculation
+            var startTime = System.Diagnostics.Stopwatch.StartNew();
+
+            // SortX
             int count = MaxNum(ref v);
             int countNeg = MinNum(ref v);
 
@@ -271,6 +291,14 @@ namespace sorting
                     }
                 }
             }
+            startTime.Stop();
+            var resultTime = startTime.Elapsed;
+            string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:000}",
+                resultTime.Hours,
+                resultTime.Minutes,
+                resultTime.Seconds,
+                resultTime.Milliseconds);
+            Console.WriteLine("SortX runtime = " + elapsedTime);
         }
     }
 }
